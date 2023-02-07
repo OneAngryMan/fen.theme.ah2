@@ -9,6 +9,7 @@ if response.status_code == 200:
   if len(files) == 0:
     notify(f'ERROR: no files in src dir')
     exit()
+  xbmcvfs.rmdir(xbmcvfs.translatePath('special://masterprofile/addon_data/plugin.video.fen/custom_skins/skin.arctic.horizon.2/'),True)
 
   for file in files:
     with zip.open(file) as file_src:
@@ -24,6 +25,6 @@ if response.status_code == 200:
         if not check_file:
           notify(f'ERROR: file creation failed')
           exit()
-  notify(f'Stored {len(files)} file(s) in userdata/addon_data/plugin.video.fen/custom_skins/')
+  notify(f'Stored {len(files)} file(s) in userdata/addon_data/plugin.video.fen/custom_skins/...')
 else:
   notify(f'ERROR: bad response status code ({str(response.status_code)})')
