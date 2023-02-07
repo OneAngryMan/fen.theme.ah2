@@ -1,8 +1,11 @@
 # Arctic Horizon 2 style theme for Fen
 ![next_episode_ah2](https://user-images.githubusercontent.com/83606678/217362162-79d2452b-c6c6-459c-b3a4-cfdda05c67a7.png)
-## Manual installation
+## Requirements
+- Fen v3.0.41b or higher
+- Arctic Horizon 2 must be installed and used for this theme to work
+## Manual "Installation"
 See [this](https://github.com/Tikipeter/repository.tikipeter/pull/135#issuecomment-1420132907) comment from Tikipeter.
-## Installation from Kodis "File Manager"
+## "Installation" from Kodis "File Manager"
 0. (make sure Kodi settings - "Media" - "General" - "Allow file renaming and deletion" is on)
 1. Open File Manager in Kodi.
 2. In the RIGHT column: Navigate to "Profile Directory" - "addon_data" - "plugin.video.fen"
